@@ -1,0 +1,43 @@
+.todos {
+
+    width: 600px;
+    height: 500px;
+    background-color: #201f1f;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+}
+
+.title {
+    text-align: center;
+    font-size: 57px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.todoTable {
+    width: 550px;
+    height: 300px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+    background-color: #434242;
+
+}
+
+.todoTab {
+    width: 550px;
+    height: 70px;
+}
+
+.todoInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+}
